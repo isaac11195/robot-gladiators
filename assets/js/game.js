@@ -31,10 +31,7 @@ var startGame = function() {
         
         // ask if player wants to use the store before next round
         var storeConfirm = window.confirm("The fight is over, visit the store before the next round?");
-
-        // if yes, take them to the store() function
-        if (storeConfirm) {
-          shop();
+        debugger;
         }
       }
     }
